@@ -171,14 +171,16 @@ function SectionTitle({
   title,
   copy,
   align = 'left',
+  className,
 }: {
   kicker: string;
   title: ReactNode;
   copy?: string;
   align?: 'left' | 'center';
+  className?: string;
 }) {
   return (
-    <div className={align === 'center' ? 'mx-auto max-w-2xl text-center' : 'max-w-2xl'}>
+    <div className={`${align === 'center' ? 'mx-auto max-w-2xl text-center' : 'max-w-2xl'} ${className || ''}`}>
       <div className="eyebrow">{kicker}</div>
       <h2 className="font-display mt-4 text-balance text-3xl font-extrabold leading-[1.08] tracking-[-.04em] text-[#102a36] sm:text-4xl md:text-[49px]">
         {title}
@@ -656,7 +658,7 @@ function Reviews() {
 
   const itemVariants = {
     hidden: { opacity: 0, y: 30 },
-    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' } },
+    visible: { opacity: 1, y: 0, transition: { duration: 0.5, ease: 'easeOut' as const } },
   };
 
   return (
