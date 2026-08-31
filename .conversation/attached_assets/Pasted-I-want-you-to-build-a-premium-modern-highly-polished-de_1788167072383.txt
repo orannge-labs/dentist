@@ -1,0 +1,1821 @@
+I want you to build a premium, modern, highly polished dental clinic website for:
+
+DR. SMILE DENTAL CLINIC
+Juna Palghar, Maharashtra, India
+
+IMPORTANT:
+This is NOT a website for the reference brand/site.
+The reference website is being used ONLY as inspiration for:
+- visual quality
+- section composition
+- interaction patterns
+- animation quality
+- spacing
+- typography hierarchy
+- card layouts
+- navigation behavior
+- modern premium feel
+- scroll storytelling
+- component architecture
+
+DO NOT copy the reference website's:
+- brand name
+- logo
+- text
+- images
+- colors
+- business information
+- testimonials
+- medical claims
+- exact visual identity
+
+Create a completely original Dr. Smile Dental Clinic website.
+
+==================================================
+1. CORE DESIGN DIRECTION
+==================================================
+
+The physical Dr. Smile clinic has a very recognizable BLUE + WHITE visual identity.
+
+The uploaded clinic reference images show:
+- bright cyan/sky blue walls
+- white architectural elements
+- blue and white furniture
+- child-friendly dental illustrations
+- clean clinical environment
+- playful tooth graphics
+- modern reception area
+- welcoming rather than intimidating atmosphere
+- warm light wood flooring
+- rounded architectural elements
+
+The website should translate this physical environment into a premium digital identity.
+
+PRIMARY COLORS:
+
+Deep Blue:
+#087EA4
+
+Primary Cyan:
+#12A8D1
+
+Bright Clinic Blue:
+#21B8E5
+
+Soft Blue:
+#DDF6FC
+
+Very Light Blue:
+#F2FBFD
+
+White:
+#FFFFFF
+
+Dark Text:
+#102A36
+
+Secondary Text:
+#5E727C
+
+Optional Accent:
+#0A6F91
+
+Use blue as the main brand color, white as the dominant background, and extremely subtle pale-blue surfaces.
+
+DO NOT make the entire website bright blue.
+
+The design should feel:
+- premium
+- trustworthy
+- medical
+- friendly
+- clean
+- modern
+- technologically advanced
+- family-friendly
+- approachable
+- sophisticated
+
+Think:
+"premium modern dental clinic + futuristic healthcare interface + warm family clinic"
+
+Avoid:
+- generic hospital website
+- generic WordPress dental template
+- excessive gradients
+- excessive glassmorphism
+- childish UI
+- overly rounded everything
+- excessive shadows
+- random animations
+- neon cyberpunk aesthetics
+- stock-template appearance
+
+==================================================
+2. TECHNOLOGY
+==================================================
+
+Build using:
+
+React
+TypeScript
+Tailwind CSS
+Framer Motion
+
+Use reusable components.
+
+Use Lucide React for icons.
+
+Use clean semantic HTML.
+
+Use responsive CSS.
+
+Structure the project properly:
+
+src/
+  components/
+  sections/
+  pages/
+  data/
+  assets/
+  hooks/
+  lib/
+  styles/
+
+Create reusable components instead of putting everything inside one huge file.
+
+Suggested components:
+
+Navbar
+MobileMenu
+AnnouncementBar
+HeroSection
+TrustStats
+ServicesSection
+ServiceCard
+WhyChooseUs
+ClinicExperience
+DoctorSection
+TreatmentJourney
+BeforeAfterSection
+TestimonialsSection
+GallerySection
+FAQSection
+LocationSection
+AppointmentSection
+Footer
+FloatingWhatsApp
+ScrollToTop
+SectionHeading
+PrimaryButton
+SecondaryButton
+MedicalIcon
+ReviewBadge
+
+==================================================
+3. GLOBAL UI SYSTEM
+==================================================
+
+Use a consistent design system.
+
+Border radius:
+- small cards: 14px
+- medium cards: 20px
+- large cards: 28px
+- hero visual elements: 32px+
+
+Buttons:
+- pill/rounded rectangle
+- medium height
+- strong typography
+- subtle hover animation
+- no exaggerated gradients
+
+Shadows:
+Use very subtle medical/premium shadows.
+
+Example:
+0 10px 40px rgba(10, 90, 110, 0.08)
+
+Borders:
+rgba(8, 126, 164, 0.12)
+
+Container:
+max-width approximately 1280px
+padding:
+desktop 32px
+tablet 24px
+mobile 18px
+
+Typography:
+Use a modern clean sans-serif.
+
+Preferred:
+Inter
+or
+Manrope
+
+Headings:
+font-weight 650-750
+
+Body:
+font-weight 400-500
+
+Avoid huge typography that makes the site feel like a SaaS landing page.
+
+==================================================
+4. NAVIGATION
+==================================================
+
+Create a premium sticky navigation.
+
+Desktop:
+
+LEFT:
+Dr. Smile logo / wordmark
+
+CENTER:
+Home
+About
+Treatments
+Doctors
+Smile Gallery
+Reviews
+FAQ
+Contact
+
+RIGHT:
+"Book Appointment" primary button
+
+The navbar should:
+- start transparent/very subtle over hero
+- become white with slight shadow/border after scrolling
+- have smooth transition
+- remain sticky
+- never obstruct content
+
+Logo:
+
+Create a text-based temporary logo if no actual logo asset is available:
+
+DR.
+SMILE
+
+Dental Clinic
+
+But make it easy to replace with the real logo later.
+
+Use a subtle tooth icon.
+
+The logo should feel like an actual medical brand, not a generic text logo.
+
+Mobile:
+- logo left
+- hamburger right
+- full-screen/sliding navigation
+- appointment CTA inside menu
+
+==================================================
+5. TOP ANNOUNCEMENT BAR
+==================================================
+
+Add a very thin announcement bar above navbar.
+
+Example:
+
+"Your smile deserves expert care • Book your consultation today"
+
+Use blue background and white text.
+
+Make it optional through a config variable.
+
+Do not make it annoying.
+
+==================================================
+6. HERO SECTION
+==================================================
+
+This is the most important section.
+
+Create a premium full-width hero.
+
+Desktop layout:
+
+LEFT:
+Small eyebrow:
+"YOUR SMILE. OUR CARE."
+
+Large heading:
+
+"Confident Smiles
+Start Here."
+
+Alternative supporting copy:
+
+"Modern dental care designed around your comfort, confidence, and long-term oral health."
+
+Primary CTA:
+"Book an Appointment"
+
+Secondary CTA:
+"Explore Treatments"
+
+Below CTA:
+
+★★★★★ 4.9/5
+"Trusted by 350+ patients"
+
+Use the current Google listing information only where appropriate.
+
+RIGHT:
+Large visual composition using clinic photography.
+
+Use the uploaded Dr. Smile clinic images as the visual inspiration.
+
+Do NOT crop them badly.
+
+Create a large rounded image container with:
+- clinic interior
+- subtle floating card
+- soft shadow
+- small decorative tooth shape
+- blue glow behind image
+
+Possible floating cards:
+
+"4.9 ★"
+"350+ Patient Reviews"
+
+and
+
+"Comfort-first care"
+
+The hero should feel premium but not overly flashy.
+
+==================================================
+7. HERO ANIMATION
+==================================================
+
+Use Framer Motion.
+
+On initial load:
+
+Logo fades in.
+
+Navbar fades in.
+
+Hero eyebrow:
+opacity 0 → 1
+y 20 → 0
+
+Heading:
+opacity 0 → 1
+y 30 → 0
+
+Description:
+slightly delayed.
+
+Buttons:
+slightly delayed.
+
+Hero image:
+opacity 0 → 1
+scale 0.96 → 1
+
+Floating cards:
+fade + subtle upward movement.
+
+Add extremely subtle floating animation to decorative tooth/shape elements.
+
+DO NOT overanimate the actual photograph.
+
+==================================================
+8. TRUST / SOCIAL PROOF STRIP
+==================================================
+
+Immediately after hero.
+
+White section with subtle blue top/bottom border.
+
+Display:
+
+4.9★
+Google Rating
+
+350+
+Patient Reviews
+
+Modern
+Dental Care
+
+Comfort
+Focused Approach
+
+Use animated number counters when entering viewport.
+
+Do NOT fabricate exact statistics.
+
+Where information is unavailable, use generic non-numeric claims instead.
+
+==================================================
+9. INTRODUCTION / ABOUT SECTION
+==================================================
+
+Create a two-column section.
+
+LEFT:
+Large image from clinic.
+
+RIGHT:
+
+Eyebrow:
+"ABOUT DR. SMILE"
+
+Heading:
+"Where modern dentistry meets genuine care."
+
+Paragraph:
+
+"At Dr. Smile Dental Clinic, every visit is designed to feel comfortable, clear, and personalized. From routine dental care to advanced treatments, our focus is helping patients maintain healthy teeth while feeling confident about their smile."
+
+IMPORTANT:
+Do not invent doctor credentials, years of experience, awards, certifications, number of procedures, or medical claims.
+
+If information isn't available, use editable placeholders in the code/data file.
+
+CTA:
+"Learn More About Us"
+
+Add a small feature list:
+
+✓ Patient-first approach
+✓ Modern clinical environment
+✓ Family-friendly care
+✓ Personalized treatment planning
+
+==================================================
+10. SERVICES / TREATMENTS
+==================================================
+
+Create a premium treatments section.
+
+Heading:
+
+"Complete Dental Care,
+Under One Roof."
+
+Subheading:
+
+"From everyday preventive care to smile-enhancing treatments, explore dental solutions designed around your needs."
+
+Create visually rich service cards.
+
+Suggested categories:
+
+General Dentistry
+Dental Cleaning
+Teeth Whitening
+Root Canal Treatment
+Dental Fillings
+Braces & Orthodontics
+Clear Aligners
+Dental Implants
+Crowns & Bridges
+Pediatric Dentistry
+Gum Care
+Smile Designing
+
+IMPORTANT:
+These should be treated as editable service data.
+
+Do not claim that the clinic provides a service unless confirmed.
+
+Structure the code so services can easily be added/removed from:
+
+src/data/services.ts
+
+Each service should contain:
+
+id
+title
+shortDescription
+icon
+image
+slug
+featured
+ctaText
+
+==================================================
+11. SERVICE CARD DESIGN
+==================================================
+
+Cards should NOT look like boring Bootstrap cards.
+
+Use:
+
+white background
+subtle border
+small blue icon
+service number
+title
+short description
+arrow button
+
+Hover:
+card moves upward 5px
+border becomes slightly blue
+arrow moves right
+icon receives subtle scale
+
+Optional:
+image reveal on hover
+
+Desktop:
+3-column grid
+
+Tablet:
+2-column
+
+Mobile:
+1-column
+
+Add a "View all treatments" CTA.
+
+==================================================
+12. FEATURED TREATMENT SECTION
+==================================================
+
+Create a large visual storytelling section.
+
+Layout:
+
+Large treatment image on left.
+
+Right:
+"PERSONALIZED CARE"
+
+Heading:
+
+"Your treatment should feel personal."
+
+Paragraph explaining that treatment plans should be discussed with the patient and tailored to individual needs.
+
+Feature bullets:
+
+01
+Understand your concern
+
+02
+Discuss your options
+
+03
+Build your treatment plan
+
+04
+Track your progress
+
+Add CTA:
+"Book a Consultation"
+
+Use a vertical timeline animation.
+
+==================================================
+13. WHY CHOOSE DR. SMILE
+==================================================
+
+Create a premium section with light blue background.
+
+Heading:
+
+"Why Patients Choose
+Dr. Smile"
+
+Create 4 large feature cards:
+
+01
+Comfort First
+
+"Designed to make every visit feel calm and reassuring."
+
+02
+Personalized Care
+
+"Treatment conversations built around your needs and goals."
+
+03
+Modern Environment
+
+"A clean, welcoming clinic designed for a better patient experience."
+
+04
+Family Friendly
+
+"An approachable dental experience for children, adults and families."
+
+Use minimal line icons.
+
+Add subtle animated circles in background.
+
+==================================================
+14. CLINIC EXPERIENCE SECTION
+==================================================
+
+Use the uploaded clinic interior photographs.
+
+Create a horizontal/stacked gallery.
+
+Title:
+
+"Step Into a Better
+Dental Experience."
+
+Show:
+- reception
+- waiting area
+- clinic interior
+- dental-themed details
+- equipment if available
+
+Use rounded image containers.
+
+Desktop:
+asymmetric masonry-style composition.
+
+Mobile:
+stack vertically.
+
+On hover:
+image zoom 1.03
+overlay appears
+caption fades in
+
+Do not use random stock images.
+
+==================================================
+15. DOCTORS / TEAM
+==================================================
+
+Create a doctor section but DO NOT invent doctors.
+
+If doctor details are not supplied, create clearly editable placeholder content:
+
+"Meet Our Dental Team"
+
+"Experienced professionals focused on personalized dental care."
+
+Use placeholder doctor cards only until real data is provided.
+
+Each doctor card:
+
+photo
+name
+designation
+specialization
+short bio
+
+Make all data editable from:
+
+src/data/doctors.ts
+
+DO NOT create fake qualifications.
+
+==================================================
+16. SMILE JOURNEY
+==================================================
+
+Create a visually interesting section:
+
+"Your Smile Journey"
+
+Timeline:
+
+01
+Book
+
+02
+Consult
+
+03
+Plan
+
+04
+Treat
+
+05
+Smile
+
+Make this horizontal on desktop.
+
+On mobile:
+vertical timeline.
+
+Use blue progress line.
+
+Animate the progress line as user scrolls.
+
+==================================================
+17. BEFORE / AFTER / SMILE STORIES
+==================================================
+
+Create an optional before/after section.
+
+Heading:
+
+"Real Journeys.
+Real Confidence."
+
+If real before/after images are not provided:
+
+DO NOT generate fake medical results.
+
+Instead create a placeholder state that can later accept real patient-approved images.
+
+Structure:
+
+Before
+After
+
+with image comparison slider.
+
+Add note:
+
+"Patient images shown with appropriate consent."
+
+Keep the component reusable.
+
+==================================================
+18. TESTIMONIALS
+==================================================
+
+Create a premium testimonial section.
+
+Heading:
+
+"What Our Patients Say"
+
+Use real testimonials only when supplied.
+
+If testimonials are not supplied, use clearly marked editable placeholder content in the data file.
+
+Do not fabricate testimonials and present them as real.
+
+Card:
+
+5-star rating
+
+Quote
+
+Patient name
+
+Optional treatment
+
+Create:
+- desktop 3-card layout
+- mobile carousel
+- auto-slide optional
+- manual arrows
+- pagination dots
+
+Animation:
+cards fade/slide smoothly.
+
+==================================================
+19. GOOGLE REVIEW CTA
+==================================================
+
+Create a dedicated social proof block.
+
+Large text:
+
+"Happy with your experience?"
+
+Subtext:
+
+"Your feedback helps other patients find the right dental care."
+
+Buttons:
+
+"Read Our Reviews"
+"Leave a Review"
+
+Use Google branding carefully and only if appropriate.
+
+The review button should be configured through a single URL variable.
+
+Do not invent a review URL.
+
+==================================================
+20. FAQ
+==================================================
+
+Create a premium FAQ section.
+
+Heading:
+
+"Questions?
+We've Got Answers."
+
+Use accordion.
+
+Questions can include:
+
+How do I book an appointment?
+
+What should I bring for my first visit?
+
+How often should I visit a dentist?
+
+Do you treat children?
+
+How long does a dental consultation take?
+
+What treatments do you offer?
+
+Do I need an appointment?
+
+IMPORTANT:
+Answers should be written carefully.
+
+Do not make unsupported medical promises.
+
+Make FAQ data editable from:
+
+src/data/faqs.ts
+
+Accordion animation:
+height + opacity
+smooth transition
+
+Only one or multiple open is acceptable, choose the cleaner UX.
+
+==================================================
+21. LOCATION SECTION
+==================================================
+
+Create a visually strong contact/location section.
+
+Heading:
+
+"Find Your Way to
+Dr. Smile."
+
+Use the verified clinic address:
+
+Shree Vallabh Bunglow,
+Opp. Khanpada,
+Near Ganesh Kund,
+Punit Nagar,
+Sankheda Park,
+Juna Palghar,
+Palghar, Maharashtra 401404
+
+Phone:
+
++91 91759 64428
+
+Create:
+
+Address card
+Phone card
+Opening hours card
+Google Maps CTA
+
+Use Google Maps embed only if technically appropriate.
+
+Do not hardcode a fake embed URL.
+
+Create a config:
+
+CLINIC_MAP_URL
+
+so it can be replaced easily.
+
+Buttons:
+
+"Get Directions"
+"Call Clinic"
+
+The address and phone should be clickable on mobile.
+
+==================================================
+22. APPOINTMENT SECTION
+==================================================
+
+Create a strong conversion section near bottom.
+
+Background:
+deep blue
+
+Heading:
+
+"Ready to Take the
+Next Step?"
+
+Subheading:
+
+"Book a consultation and let us help you plan your dental care."
+
+Primary CTA:
+"Book Appointment"
+
+Secondary:
+"Call +91 91759 64428"
+
+Create an appointment modal.
+
+Fields:
+
+Full Name
+Phone Number
+Email
+Preferred Date
+Preferred Time
+Treatment / Concern
+Message
+
+CTA:
+"Request Appointment"
+
+IMPORTANT:
+Do not pretend that this sends an appointment unless backend integration exists.
+
+For MVP:
+submit → show confirmation UI
+
+"Thanks! Your appointment request has been received."
+
+Structure the form so it can later connect to:
+Supabase
+Firebase
+Google Sheets
+email API
+WhatsApp
+CRM
+
+without rewriting the UI.
+
+==================================================
+23. WHATSAPP FLOATING BUTTON
+==================================================
+
+Add floating WhatsApp button bottom-right.
+
+Use a configurable phone number.
+
+Text:
+
+"Chat with us"
+
+On desktop:
+icon + text
+
+On mobile:
+icon only
+
+Do not make it cover important UI.
+
+Add subtle pulse animation but keep it professional.
+
+==================================================
+24. FOOTER
+==================================================
+
+Create a large premium footer.
+
+Top:
+
+DR. SMILE
+Dental Clinic
+
+"Modern dental care with a personal touch."
+
+Columns:
+
+Clinic
+About
+Treatments
+Doctors
+Reviews
+FAQ
+Contact
+
+Treatments:
+General Dentistry
+Cleaning
+Root Canal
+Braces
+Aligners
+Implants
+Pediatric Dentistry
+Smile Designing
+
+Contact:
+Address
+Phone
+Opening Hours
+
+Social:
+Instagram
+Facebook
+WhatsApp
+
+Use placeholders where links are not known.
+
+Bottom:
+
+© 2026 Dr. Smile Dental Clinic. All rights reserved.
+
+Privacy Policy
+Terms & Conditions
+
+==================================================
+25. FOOTER VISUAL
+==================================================
+
+Use deep blue background.
+
+Subtle tooth outline or abstract dental pattern in the background.
+
+No cheesy stock dental graphics.
+
+Use low-opacity line art.
+
+==================================================
+26. RESPONSIVE DESIGN
+==================================================
+
+This is extremely important.
+
+Desktop:
+1440px
+1280px
+1024px
+
+Tablet:
+768px
+
+Mobile:
+390px
+375px
+360px
+
+Everything must be responsive.
+
+Mobile navigation must work.
+
+No horizontal overflow.
+
+No broken animations.
+
+No oversized images.
+
+Hero must stack correctly.
+
+Cards should become single-column.
+
+Timeline becomes vertical.
+
+Gallery becomes stacked.
+
+Buttons should be at least 44px high.
+
+Text should remain readable.
+
+==================================================
+27. MICRO INTERACTIONS
+==================================================
+
+Use Framer Motion selectively.
+
+Implement:
+
+fade-up
+fade-in
+scale-in
+hover lift
+button arrow movement
+image zoom
+counter animation
+accordion animation
+navbar transition
+mobile menu animation
+gallery hover
+timeline progress
+scroll reveal
+
+DO NOT animate everything.
+
+Animation should communicate hierarchy.
+
+==================================================
+28. PAGE TRANSITIONS
+==================================================
+
+If using multiple routes:
+
+Home
+About
+Treatments
+Treatment Detail
+Doctors
+Gallery
+Reviews
+Contact
+
+Use subtle page transitions.
+
+Do not create unnecessary route complexity if it makes the project fragile.
+
+==================================================
+29. TREATMENT DETAIL PAGES
+==================================================
+
+Create reusable treatment detail template.
+
+Example URL:
+
+/treatments/root-canal
+/treatments/clear-aligners
+/treatments/dental-implants
+/treatments/teeth-whitening
+
+Template:
+
+Hero
+Treatment overview
+Who it may be suitable for
+What to expect
+Treatment process
+FAQ
+CTA
+
+IMPORTANT:
+Medical content must be editable and should not make guarantees.
+
+Do not say things like:
+"100% painless"
+"guaranteed results"
+"permanent results"
+
+unless explicitly verified.
+
+==================================================
+30. SEO
+==================================================
+
+Implement proper SEO.
+
+Title:
+
+Dr. Smile Dental Clinic | Dental Care in Palghar
+
+Meta description:
+
+"Dr. Smile Dental Clinic in Palghar provides personalized dental care in a modern, welcoming environment. Explore treatments and book a consultation."
+
+Use proper:
+
+H1
+H2
+H3
+
+semantic structure.
+
+Add LocalBusiness / Dentist structured data where appropriate.
+
+Include:
+
+name
+address
+telephone
+url
+openingHours
+
+Do not invent missing fields.
+
+==================================================
+31. PERFORMANCE
+==================================================
+
+Optimize aggressively.
+
+Use:
+lazy loading
+responsive images
+WebP where possible
+code splitting
+minimal JS
+Framer Motion only where needed
+
+Do not load huge videos automatically.
+
+If a hero video is eventually added:
+- muted
+- autoplay
+- loop
+- playsInline
+- poster image
+- lazy behavior where appropriate
+
+==================================================
+32. ACCESSIBILITY
+==================================================
+
+Follow good accessibility practices.
+
+All images:
+meaningful alt text
+
+Buttons:
+clear labels
+
+Keyboard navigation:
+must work
+
+Focus states:
+visible
+
+Contrast:
+accessible
+
+FAQ:
+keyboard accessible
+
+Mobile menu:
+trap/focus appropriately
+
+Do not rely only on color.
+
+==================================================
+33. CONTENT ARCHITECTURE
+==================================================
+
+Create centralized data files.
+
+Example:
+
+src/data/clinic.ts
+
+Contains:
+
+clinicName
+tagline
+phone
+whatsapp
+email
+address
+hours
+mapUrl
+reviewUrl
+socialLinks
+
+src/data/services.ts
+
+src/data/doctors.ts
+
+src/data/testimonials.ts
+
+src/data/faqs.ts
+
+src/data/gallery.ts
+
+This is extremely important.
+
+I want the website content separated from the UI.
+
+==================================================
+34. IMAGE ARCHITECTURE
+==================================================
+
+Create:
+
+src/assets/
+
+clinic/
+doctors/
+services/
+gallery/
+icons/
+
+Use the uploaded Dr. Smile clinic photos wherever possible.
+
+Do not use generic dental stock images if clinic photography is available.
+
+For missing images:
+use clean placeholders that clearly indicate where the final image should be inserted.
+
+Do not use random Unsplash images just to fill space.
+
+==================================================
+35. VISUAL DETAILS INSPIRED BY THE CLINIC
+==================================================
+
+Take visual cues from the physical clinic:
+
+Blue walls
+White reception
+Blue seating
+Rounded shapes
+Tooth illustrations
+Clean floors
+Friendly pediatric elements
+
+Translate them subtly.
+
+For example:
+
+Use rounded white cards over pale blue backgrounds.
+
+Use thin tooth-outline illustrations.
+
+Use circular decorative shapes.
+
+Use blue geometric patterns.
+
+Use subtle curved separators.
+
+Do not literally recreate the clinic reception as a website.
+
+The website should feel like the DIGITAL VERSION of the clinic's identity.
+
+==================================================
+36. SPECIAL HERO BACKGROUND
+==================================================
+
+Create a subtle background system.
+
+White background.
+
+Very faint blue radial gradient.
+
+A few oversized blurred circles.
+
+Extremely subtle dental/tooth line-art pattern.
+
+No strong gradient.
+
+No moving background that distracts from content.
+
+==================================================
+37. SCROLL EXPERIENCE
+==================================================
+
+The website should feel like a premium scroll story.
+
+Sequence:
+
+Announcement
+↓
+Navbar
+↓
+Hero
+↓
+Trust
+↓
+About
+↓
+Treatments
+↓
+Personalized Care
+↓
+Why Dr. Smile
+↓
+Clinic Experience
+↓
+Doctors
+↓
+Smile Journey
+↓
+Smile Stories
+↓
+Testimonials
+↓
+FAQ
+↓
+Location
+↓
+Appointment CTA
+↓
+Footer
+
+Each section should have enough spacing.
+
+Do NOT cram sections together.
+
+Use approximately:
+
+100-140px vertical section spacing desktop
+
+70-90px mobile
+
+==================================================
+38. SECTION HEADINGS
+==================================================
+
+Create a reusable SectionHeading component.
+
+Structure:
+
+small eyebrow
+
+large heading
+
+short supporting paragraph
+
+Example:
+
+WHY DR. SMILE
+
+Care that feels different.
+
+"From the moment you walk in to the moment you leave, every detail is designed around your comfort."
+
+Eyebrow:
+uppercase
+small
+blue
+letter-spacing
+
+Heading:
+dark
+strong
+
+Paragraph:
+gray
+max-width 600px
+
+==================================================
+39. BUTTON SYSTEM
+==================================================
+
+Primary:
+
+blue background
+white text
+rounded
+subtle shadow
+
+Hover:
+slightly darker blue
+translateY(-2px)
+
+Secondary:
+
+white
+blue border
+blue text
+
+Hover:
+light blue background
+
+Text links:
+blue
+arrow icon
+
+Use consistent buttons across entire site.
+
+==================================================
+40. INTERACTION DETAILS
+==================================================
+
+Buttons:
+arrow shifts right on hover.
+
+Cards:
+lift 4px.
+
+Images:
+scale 1.03.
+
+Navbar:
+background transitions on scroll.
+
+FAQ:
+smooth height.
+
+Mobile menu:
+slide/fade.
+
+Counters:
+animate only once.
+
+Gallery:
+lightbox optional.
+
+Appointment:
+modal opens smoothly.
+
+==================================================
+41. DO NOT OVERDESIGN
+==================================================
+
+This instruction is critical.
+
+The website should NOT look like an AI-generated landing page.
+
+Avoid:
+- 20 different gradients
+- excessive floating blobs
+- random glass cards
+- excessive 3D
+- giant headings everywhere
+- meaningless animations
+- unnecessary particle systems
+- excessive rounded pills
+- fake statistics
+- fake reviews
+- fake doctors
+- fake awards
+- fake certifications
+
+The result should look like a real professional dental clinic hired a high-end web design studio.
+
+==================================================
+42. REFERENCE WEBSITE IMPLEMENTATION
+==================================================
+
+The reference website I provided has a more sophisticated visual language and component structure.
+
+Use it as inspiration for:
+
+- section rhythm
+- component composition
+- navigation
+- card interactions
+- scrolling behavior
+- animation timing
+- modern layout
+- responsive behavior
+- visual storytelling
+
+However, create an ORIGINAL implementation.
+
+If I provide the reference source files separately, analyze them for:
+- reusable layout ideas
+- animation patterns
+- component architecture
+- interaction patterns
+
+Do NOT copy their branding or content.
+
+Do NOT recreate their exact website.
+
+==================================================
+43. CODE QUALITY
+==================================================
+
+I want production-quality code.
+
+Avoid:
+
+huge monolithic components
+duplicate code
+inline styles everywhere
+hardcoded repeated strings
+random CSS
+unused imports
+console errors
+broken routes
+
+Use reusable components.
+
+Use TypeScript types.
+
+Use meaningful variable names.
+
+Keep data separate.
+
+==================================================
+44. CONFIGURATION
+==================================================
+
+Create:
+
+src/config/site.ts
+
+Example:
+
+export const siteConfig = {
+  name: "Dr. Smile Dental Clinic",
+  phone: "+91 91759 64428",
+  whatsapp: "",
+  email: "",
+  address: "...",
+  mapUrl: "",
+  reviewUrl: "",
+  instagram: "",
+  facebook: "",
+};
+
+Do not invent unavailable values.
+
+==================================================
+45. CURRENT VERIFIED CLINIC INFORMATION
+==================================================
+
+Use these details where appropriate:
+
+Business:
+Dr. Smile Dental Clinic
+
+Address:
+Shree Vallabh Bunglow,
+Opp. Khanpada,
+Near Ganesh Kund,
+Punit Nagar,
+Sankheda Park,
+Juna Palghar,
+Palghar, Maharashtra 401404
+
+Phone:
++91 91759 64428
+
+Google listing:
+4.9 rating
+354 reviews
+
+Opening hours shown in the current listing:
+Monday-Saturday:
+09:30-13:00
+17:00-20:30
+
+Sunday:
+verify before publishing.
+
+IMPORTANT:
+Do not invent Sunday hours.
+
+If the business owner later gives different details, make the new details authoritative.
+
+==================================================
+46. HOME PAGE FINAL STRUCTURE
+==================================================
+
+The homepage should be:
+
+01 Announcement Bar
+
+02 Sticky Navbar
+
+03 Hero
+
+04 Trust / Reviews
+
+05 About Dr. Smile
+
+06 Treatments
+
+07 Featured Personalized Care
+
+08 Why Choose Dr. Smile
+
+09 Clinic Experience Gallery
+
+10 Doctors
+
+11 Smile Journey
+
+12 Smile Stories / Before & After
+
+13 Testimonials
+
+14 Google Reviews CTA
+
+15 FAQ
+
+16 Location
+
+17 Appointment CTA
+
+18 Footer
+
+==================================================
+47. FIRST BUILD PRIORITY
+==================================================
+
+Do NOT try to make every feature perfect before showing me the result.
+
+First build these completely:
+
+1. Navbar
+2. Hero
+3. Trust section
+4. About
+5. Treatments
+6. Why Choose Us
+7. Clinic Gallery
+8. Testimonials
+9. FAQ
+10. Location
+11. Appointment CTA
+12. Footer
+
+Make these visually excellent.
+
+Then build:
+
+Doctors
+Treatment detail pages
+Before/After
+Advanced interactions
+Backend appointment functionality
+
+==================================================
+48. IMPORTANT LOVABLE BEHAVIOR
+==================================================
+
+Do not stop after generating a basic template.
+
+Actually implement the design.
+
+Do not give me a generic dental website.
+
+Do not use placeholder lorem ipsum.
+
+Use meaningful dental-clinic copy.
+
+Do not fabricate factual claims.
+
+When information is missing, make the content editable instead.
+
+Prioritize visual quality.
+
+Prioritize responsive behavior.
+
+Prioritize polished animations.
+
+Prioritize real usability.
+
+==================================================
+49. FINAL DESIGN TARGET
+==================================================
+
+The final website should feel like:
+
+"Apple-level simplicity + premium healthcare design + modern dental clinic + blue/white Dr. Smile identity"
+
+Not:
+
+"generic dentist WordPress website"
+
+The first impression should immediately communicate:
+
+TRUST
+CLEANLINESS
+EXPERTISE
+COMFORT
+MODERN CARE
+
+The user should immediately see:
+
+WHO WE ARE
+WHAT WE DO
+WHY TRUST US
+WHERE WE ARE
+HOW TO BOOK
+
+without searching.
+
+==================================================
+50. FINAL IMPLEMENTATION CHECKLIST
+==================================================
+
+Before considering the build complete, check:
+
+[ ] Navbar works
+[ ] Mobile navbar works
+[ ] Hero responsive
+[ ] CTA buttons work
+[ ] Phone button works
+[ ] WhatsApp button works when number configured
+[ ] Smooth scrolling works
+[ ] All sections responsive
+[ ] Services cards work
+[ ] FAQ works
+[ ] Gallery works
+[ ] Appointment modal works
+[ ] Form validation works
+[ ] Location section works
+[ ] Google Maps CTA configurable
+[ ] No horizontal overflow
+[ ] No console errors
+[ ] No broken images
+[ ] No fake doctors
+[ ] No fake testimonials
+[ ] No unsupported medical claims
+[ ] SEO metadata exists
+[ ] Accessibility basics implemented
+[ ] Loading performance optimized
+[ ] Animations do not cause layout shifts
+[ ] Mobile UI feels intentional
+[ ] Desktop UI feels premium
+[ ] Tablet layout works
+
+Build the first complete version now.
+
+Do not ask me unnecessary questions before starting.
+
+Use sensible defaults where information is missing, but clearly isolate anything I need to replace later.
+
+The most important priority is:
+PREMIUM VISUAL DESIGN + CLINIC BRAND IDENTITY + CONVERSION + RESPONSIVENESS.

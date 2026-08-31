@@ -1,0 +1,28 @@
+kind = "web"
+previewPath = "/"
+title = "Dr. Smile Dental Clinic"
+description = "A premium, welcoming dental clinic website for Dr. Smile Dental Clinic in Juna Palghar, with editable clinic content, treatment exploration, appointment requests, and responsive patient-focused interactions."
+version = "1.0.0"
+id = "artifacts/dr-smile-clinic"
+router = "path"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 24887
+
+[services.development]
+run = "pnpm --filter @workspace/dr-smile-clinic run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/dr-smile-clinic", "run", "build" ]
+serve = "static"
+publicDir = "artifacts/dr-smile-clinic/dist/public"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "24887"
+BASE_PATH = "/"
